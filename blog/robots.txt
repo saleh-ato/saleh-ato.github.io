@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
-Sitemap: https://example.org/sitemap.xml
+Sitemap: https://saleh-ato.github.io/blog/sitemap.xml
+
 
 # Prevent duplicate content indexing
 Disallow: /tags/
