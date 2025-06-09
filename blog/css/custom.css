@@ -1,0 +1,19 @@
+/*img.logo{height:75px !important;}*/
+.mobile-logo {
+    display: none;
+}
+.desktop-logo {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .mobile-logo {
+        display: block;
+    }
+    .desktop-logo {
+        display: none;
+    }
+}
+img.w-full.h-48.object-cover{
+	object-fit:contain;
+}
