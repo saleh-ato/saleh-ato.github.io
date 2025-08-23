@@ -1,0 +1,187 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+/* RTL overrides for Bootstrap and custom styles */
+
+/* Navigation */
+.navbar-brand {
+    padding-left: 0 !important;
+    padding-right: 15px !important;
+}
+
+.nav-item .nav-link {
+    padding-left: 1rem !important;
+    padding-right: 0 !important;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+/* .mx-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+} */
+
+/* Hero Section */
+.hero-wrap .text h2 span.txt-rotate {
+    /* direction: ltr; Keep rotating text LTR for better animation */
+}
+
+/* About Section */
+.ftco-about .pl-md-5 {
+    /* padding-right: 3rem !important; */
+    padding-left: 0 !important;
+}
+
+.ftco-about .img-about {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+.about-info ul {
+    list-style-type: none;
+    padding-right: 0;
+}
+
+.about-info li {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.about-info li span {
+    margin-left: 0.5rem;
+    margin-right: 0;
+}
+
+/* Resume Section */
+#navi {
+    text-align: right;
+}
+
+#navi ul li {
+    padding-right: 0 !important;
+    padding-left: 20px;
+}
+
+.resume-wrap .text {
+    padding-left: 0 !important;
+    padding-right: 1rem !important;
+}
+
+/* Progress bars */
+.progress-wrap h3 {
+    text-align: right;
+}
+
+.progress-bar {
+    float: right;
+}
+
+.progress-wrap span {
+    left: 0;
+    right: auto;
+}
+
+/* Services */
+.services-1 .icon {
+    right: 20px;
+    left: auto;
+}
+
+.ftco-project .text {
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-info .box {
+    text-align: center;
+}
+
+.contact-info .icon {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.contact-info p a {
+    direction: ltr;
+    /* Keep phone numbers and emails LTR */
+    display: inline-block;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    text-align: right;
+}
+
+/* Footer */
+.ftco-footer .ftco-footer-widget {
+    text-align: right;
+}
+
+.ftco-footer-social {
+    float: none !important;
+    text-align: right;
+}
+
+.ftco-footer .list-unstyled {
+    padding-right: 0;
+}
+
+.ftco-footer .icon-long-arrow-right {
+    margin-left: 0.5rem;
+    margin-right: 0;
+    transform: rotate(180deg);
+}
+
+.ftco-footer .ml-md-4 {
+    margin-left: 0 !important;
+    margin-right: 1.5rem !important;
+}
+
+.block-23 ul li {
+    padding-right: 0;
+    padding-left: 1.5em;
+    text-align: right;
+}
+
+.block-23 ul li .icon {
+    right: 0;
+    left: auto;
+}
+
+.ftco-hireme h2 {
+    text-align: right;
+}
+
+.slider-text .subheading-fa {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+section.ftco-section {
+    padding: 5rem 0;
+}
+
+@media (max-width: 991.98px) {
+    .nav-item .nav-link{
+        padding-left: 0 !important;
+    }
+    .navbar-nav .nav-item{
+        margin-left: 0 !important;
+    }
+    ul.navbar-nav.nav.ml-auto.align-items-center{
+        padding-inline-start: 0;
+    }
+}
